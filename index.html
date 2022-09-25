@@ -18,15 +18,16 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title -->
 <body>
-    <div class="header">
+    <header class="header">
         <!-- added header for header section  -->
-        <header>
+       
         <h1>Hori<span id="seo">seo</span>n</h1>
-        <div>
-            <!--  added a id for the list and the links work -->
+        <nav>
+            <!--  added a id and a nav  for the list and the links work -->
             <ul id="nav-list">
                 <li>
-                    <a href="#">Search Engine Optimization</a>
+                    <!-- fixed the link  -->
+                    <a href="#Search-Engine-Optimization">Search Engine Optimization</a>
                 </li>
                 <li>
                     <a href="#online-reputation-management">Online Reputation Management</a>
@@ -35,68 +36,70 @@ THEN I find a concise, descriptive title -->
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </header>
-    </div>
-    <!-- changed the class to id  -->
-    <div id="hero"></div>
-    <div class="content">
+   
+    <!-- changed the class to id and changed div to figure  -->
+    <figure id="hero"></figure>
+    <!-- this is the main section  -->
+    <main class="content">
         <!-- made all the img div have the same class and added alt attribute -->
-        <div class="main-div">
+        <section  class="figure-section">
             <img class="float-left" src="./assets/images/search-engine-optimization.jpg" alt="desk with note book " />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div class="main-div" >
+        </section >
+        <section class="figure-section" >
             <img  class="float-right" src="./assets/images/online-reputation-management.jpg"  alt="open lap top" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div class="main-div">
+        </section>
+        <section class="figure-section">
             <img  class="float-left" src="./assets/images/social-media-marketing.jpg" alt="people at desk with sticker icons " />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
-    </div>
-    <div class="benefits">
+        </section>
+    </main>
+    <!-- added aside section -->
+    <aside class="benefits">
         <!-- made all the img have a alt attribute and changed the icon side bar with information divs to be the same classes -->
-        <div class="benefit-div">
+        <section class="benefit-div">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png"  alt="icon of funnel" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-div">
+        </section>
+        <section class="benefit-div">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png"  alt="icon of lightbulb"/>
+            <img   src="./assets/images/brand-awareness.png"  alt="icon of lightbulb"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-div">
+        </section>
+        <section class="benefit-div">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"  alt="icon of money"/>
+            <img  src="./assets/images/cost-management.png"  alt="icon of money"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
-    <div class="footer">
+        </section>
+    </aside>
+    <footer class="footer">
         <!-- added a footer tag-->
-        <footer>
+       
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
+   
     </footer>
-    </div>
 </body>
 
 </html>

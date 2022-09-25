@@ -26,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -108,7 +108,7 @@ p {
 }
 
  /* just made on class for repetitive code   */
-.main-div {
+.figure-section{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -116,12 +116,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* got rid of all the children and just used the img and h2 tag  since there were no more in the code we could just select the one element */
- img { 
+
+.figure-section img { 
     max-height: 200px;
 }
 
- h2 {
+  .figure-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -136,3 +136,6 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+
+
