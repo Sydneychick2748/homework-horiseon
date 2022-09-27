@@ -1,4 +1,4 @@
-# Week1-assignment-Horiseon Website
+# homework-horiseon
 
 ## Description
 The homework was to look at the code on the Horiseon webpage and refactor the code so everything is working the way it should and have semantic html tags and clean up the repetitive css but at the same time keeping the webpage the same on the front end. Semantic elements help structure the code making it more readable and easier to maintain.Here is a link to the github repository https://github.com/Sydneychick2748/homework-horiseon and the live link to the webpage https://sydneychick2748.github.io/homework-horiseon/ 
